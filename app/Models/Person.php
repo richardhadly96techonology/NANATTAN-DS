@@ -12,6 +12,6 @@ class Person extends Model
     protected $fillable = [
         'empno', 'nicno', 'lname', 'fname','address', 'email',
         'designation', 'branch', 'department', 'ministry',
-        'apdate', 'dob','phno', 'image'
+        'apdate', 'dob','phno', 'image', 'git'
     ];
 }
